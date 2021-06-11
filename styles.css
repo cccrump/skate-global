@@ -1,0 +1,94 @@
+ /*master stykes*/
+
+body{
+    margin: 0px;
+
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+/*nar styles*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.lelf-side {
+    display: flex;
+    
+}
+.nav-bar >.lelf-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-bar {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border bottom 0.5s;
+}
+.nav-link-bar a {
+     color: darkolivegreen;
+     text-decoration: none ;
+     transition: color 0.5s;
+}
+
+.nav-link-bar:hover {
+     border-bottom:1px solid black;
+    
+}
+
+.nav-link-bar a:hover {
+    color: black;
+   
+}
+/*protfoilo styles*/
+
+.portfolio_items_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.portfolio_items_bar{
+    position: relative;
+}
+
+.portfolio-img-background{
+    height: 300px;
+    width: 100%;
+    background-size:cover ;
+    background-position:center ;
+    background-repeat: no-repeat;
+
+
+}
+
+.img-text-bar{
+    position:absolute;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 199%;
+    text-align: center;
+    padding-right:100px ;
+    padding-left:100px ;
+}
+
+
+
+
+
+
+
+
