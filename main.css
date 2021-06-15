@@ -1,0 +1,73 @@
+/*CSS Syntaxh1 { color: red; font-size: 12px; } selector { property: value; property: value; }*/
+h1 { color: rgb(102, 59, 143); font-size: 12px; }
+
+/*Element Selectorh1 { color: red; font-size: 12px; } 
+elementtag { property: value; property: value; }*/
+
+.footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #ddd; /* Grey background */
+  }
+
+body{
+    margin: 0px;
+
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+/*nar styles*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.lelf-side {
+    display: flex;
+    
+}
+.nav-bar>.lelf-side> div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-bar{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+  
+}
+
+
+.nav-link-bar{
+     color: darkolivegreen;
+     text-decoration: none ;
+     transition: color 0.5s;
+}
+
+.nav-link-bar:hover{
+     border-bottom:1px solid black;
+    
+}
+
+.nav-link-bar a:hover{
+    color: black;
+   
+}
+/*protfoilo styles*/
+
+.img {
+    border-radius: 8px;
+}
+
+.Separator {
+    background: url('spics_jpg\manny-becerra-4UYnOhYFKJs-unsplash.jpg');
+}
+
